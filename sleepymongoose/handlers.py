@@ -13,7 +13,7 @@
 # limitations under the License.
 
 from bson.son import SON
-from pymongo import Connection, ASCENDING, DESCENDING
+from pymongo import MongoClient, ASCENDING, DESCENDING
 from pymongo.errors import ConnectionFailure, ConfigurationError, OperationFailure, AutoReconnect
 from bson import json_util
 
